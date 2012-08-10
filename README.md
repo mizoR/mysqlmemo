@@ -8,7 +8,7 @@ MySQLで、カラムの仕様とかをメモするときに使うスクリプト
       password: パスワード(8〜20chars)
       email:    メールアドレス(UNIQ)
      
-    $ ruby mysqlmemo.rb -m memo.yml -h localhost -u root -p database_development
+    $ ruby mysqlmemo.rb -m memo.yml -h localhost -u root -p database_name
     <TABLE>
       <CAPTION>users</CAPTION>
       <TR>

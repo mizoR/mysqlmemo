@@ -72,7 +72,7 @@ if __FILE__ == $0
   host = 'localhost'
   user = 'root'
   password = ''
-  database = 'minne_1_1_0_development'
+  database = 'mydatabase'
 
   opt = OptionParser.new
   opt.on('-m VAL') { |v| memo = v }
